@@ -32,7 +32,7 @@ var ArticleSchema = new Schema({
 
 // This creates our model from the above schema, using mongoose's model method
 var Article = mongoose.model("Article", ArticleSchema);
-console.log("This is 12345" + Article);
+console.log(Article);
 
 // Export the Article model
 module.exports = Article;
